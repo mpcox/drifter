@@ -1,0 +1,14 @@
+#drifter
+poplabel = [Malaita]
+Np = [10000]
+Ns = [12]
+A1 = [K][0.667]
+A2 = [S][0.083]
+A3 = [M][0.250]
+;
+poplabel = [Rendova]
+Np = [1000]
+Ns = [20]
+A1 = [K][0.550]
+A2 = [O][0.450]
+;

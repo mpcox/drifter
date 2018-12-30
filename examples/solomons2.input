@@ -1,0 +1,8 @@
+#drifter
+poplabel = [Malaita]
+Np = [10000]
+Ns = [12]
+A1 = [K][0.667]
+A2 = [S][0.083]
+A3 = [M][0.250]
+;
