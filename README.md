@@ -35,7 +35,7 @@ drifter
 -i NUMBER  Iterations – defines the number of independent replicates
 ```
 
-*drifter* reads information from an input file.  The following example, ['solomons 1'](examples/solomons1.input), lists the populations to be simulated (here, Malaita and Rendova), their effective population sizes and the sample sizes of the current study, and the names and frequencies of the observed alleles (here, P, K, M and O).
+*drifter* reads information from an input file.  The following example, [solomons 1](examples/solomons1.input), lists the populations to be simulated (here, Malaita and Rendova), their effective population sizes and the sample sizes of the current study, and the names and frequencies of the observed alleles (here, P, K, M and O).
 
 ```
 #drifter
@@ -62,15 +62,15 @@ drifter input.file
 
 EXAMPLE
 
-For details, see the worked examples [here](examples).
+For details, see the complete [documentation file](documentation.pdf) and the [example input and output files](examples).
 
-To use *drifter* on the solomons 1 dataset for 10 generations and 2 iterations, run:
+To simulate drift for 10 generations and 2 iterations on the [solomons 1](examples/solomons1.input) input file, run:
 
 ```
 drifter -g 10 -i 2 solomons1.input
 ```
 
-*drifter* generates random outcomes, but the output formatting looks like the following, with each block containing the final frequencies of the input alleles after 10 generations of drift:
+*drifter* of course generates random outcomes, but the output formatting looks like the following, with each block containing the final frequencies of the input alleles for separate simulations after 10 generations of drift:
 
 ```
 Number of iterations: 2
