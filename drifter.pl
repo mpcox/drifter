@@ -3,9 +3,12 @@
 # Programme: drifter v.2.2
 # A programme to simulate changing allele frequencies through time
 # Institution: Arizona Research Laboratories, University of Arizona
-# Currently: Institute of Molecular BioSciences, Massey University
+# Date: 2005
 # Author: Murray Cox
 # Developed on perl v5.8.7 build for MSWin32-x86-multi-thread
+
+# Confirmed still working with perl v5.18.2
+# December 2018
 
 # Copyright (C) 2005 Murray P. Cox
 
